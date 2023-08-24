@@ -3,9 +3,9 @@ if (typeof crypto === 'undefined' || !crypto.subtle)
 
 /**
  * @typedef JwtAlgorithm
- * @type {'ES256'|'ES384'|'ES512'|'HS256'|'HS384'|'HS512'|'RS256'|'RS384'|'RS512'}
+ * @type {'ES256K'|'ES256'|'ES384'|'ES512'|'HS256'|'HS384'|'HS512'|'RS256'|'RS384'|'RS512'}
  */
-export type JwtAlgorithm = 'ES256'|'ES384'|'ES512'|'HS256'|'HS384'|'HS512'|'RS256'|'RS384'|'RS512'
+export type JwtAlgorithm = 'ES256K'|'ES256'|'ES384'|'ES512'|'HS256'|'HS384'|'HS512'|'RS256'|'RS384'|'RS512'
 
 /**
  * @typedef JwtAlgorithms
